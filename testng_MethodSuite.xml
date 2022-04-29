@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Method Suite" verbose="1">
+    <test name="Method Test" >
+        <classes>
+            <class name="firstPackage.SecondClassTest">
+                <methods>
+                    <include name="secondTest"/>
+                </methods>
+            </class>
+            <class name="thirdPackage.FirstClassTest">
+                <methods>
+                    <include name="firstTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,4 +1,4 @@
-package firstPackage;
+package thirdPackage;
 
 import org.testng.annotations.Test;
 
@@ -13,5 +13,4 @@ public class SecondClassTest {
     public void secondTest() {
         System.out.printf("Class %s. Second test method.\n", SecondClassTest.class);
     }
-
 }
