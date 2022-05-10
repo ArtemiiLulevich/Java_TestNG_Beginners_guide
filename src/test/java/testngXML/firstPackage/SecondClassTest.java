@@ -1,6 +1,5 @@
-package secondPackage;
+package testngXML.firstPackage;
 
-import firstPackage.FirstClassTest;
 import org.testng.annotations.Test;
 
 public class SecondClassTest {
@@ -14,4 +13,5 @@ public class SecondClassTest {
     public void secondTest() {
         System.out.printf("Class %s. Second test method.\n", SecondClassTest.class);
     }
+
 }

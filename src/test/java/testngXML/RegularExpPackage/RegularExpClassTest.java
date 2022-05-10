@@ -1,4 +1,4 @@
-package firstPackage.RegularExpPackage;
+package testngXML.RegularExpPackage;
 
 import org.testng.annotations.Test;
 

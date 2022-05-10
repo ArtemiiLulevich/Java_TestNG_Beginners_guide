@@ -4,12 +4,12 @@
 <suite name="Method Suite" verbose="1">
     <test name="Method Test" >
         <classes>
-            <class name="firstPackage.SecondClassTest">
+            <class name="testngXML.firstPackage.SecondClassTest">
                 <methods>
                     <include name="secondTest"/>
                 </methods>
             </class>
-            <class name="thirdPackage.FirstClassTest">
+            <class name="testngXML.thirdPackage.FirstClassTest">
                 <methods>
                     <include name="firstTest"/>
                 </methods>

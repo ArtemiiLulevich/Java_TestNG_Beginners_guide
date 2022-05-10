@@ -7,12 +7,12 @@
             <package name="firstPackage"/>
         </packages>
         <classes>
-            <class name="secondPackage.SecondClassTest">
+            <class name="testngXML.secondPackage.SecondClassTest">
                 <methods>
                     <exclude name="secondTest"/>
                 </methods>
             </class>
-            <class name="thirdPackage.FirstClassTest">
+            <class name="testngXML.thirdPackage.FirstClassTest">
                 <methods>
                     <include name="firstTest"/>
                 </methods>

@@ -1,4 +1,4 @@
-package thirdPackage;
+package testngXML.thirdPackage;
 
 import org.testng.annotations.Test;
 

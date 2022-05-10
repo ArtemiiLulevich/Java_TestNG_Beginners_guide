@@ -4,7 +4,7 @@
 <suite name="Regular Exp Suite" verbose="1">
     <test name="Regular Exp Test">
         <classes>
-            <class name="firstPackage.RegularExpPackage.RegularExpClassTest">
+            <class name="testngXML.RegularExpPackage.RegularExpClassTest">
                 <methods>
                     <include name=".*Test.*" />
                 </methods>

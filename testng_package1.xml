@@ -4,12 +4,12 @@
 <suite name="Second Suite" verbose="1">
     <test name="First Test" >
         <classes>
-            <class name="firstPackage.FirstClassTest"/>
+            <class name="testngXML.firstPackage.FirstClassTest"/>
         </classes>
     </test>
     <test name="Second Test" >
         <classes>
-            <class name="firstPackage.SecondClassTest"/>
+            <class name="testngXML.firstPackage.SecondClassTest"/>
         </classes>
     </test>
 </suite>

@@ -1,4 +1,4 @@
-package secondPackage;
+package testngXML.secondPackage;
 
 import org.testng.annotations.Test;
 

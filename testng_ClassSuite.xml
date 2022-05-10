@@ -4,9 +4,9 @@
 <suite name="Third Suite" verbose="1">
     <test name="Third Test" >
         <classes>
-            <class name="firstPackage.FirstClassTest"/>
-            <class name="secondPackage.FirstClassTest"/>
-            <class name="thirdPackage.FirstClassTest"/>
+            <class name="testngXML.firstPackage.FirstClassTest"/>
+            <class name="testngXML.secondPackage.FirstClassTest"/>
+            <class name="testngXML.thirdPackage.FirstClassTest"/>
         </classes>
     </test>
 </suite>
