@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameter test Suite" verbose="1">
+    <parameter name="suite-param" value="suite level parameter" />
+    <test name="Parameter Test one">
+        <classes>
+            <class name="Annotations.ParameterTest">
+                <methods>
+                    <include name="parameterTestOne" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Parameter Test two">
+        <parameter name="test-two-param" value="Test two parameter" />
+        <classes>
+            <class name="Annotations.ParameterTest">
+                <methods>
+                    <include name="parameterTestTwo" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Parameter Test three">
+        <parameter name="suite-param" value="overriding suite parameter" />
+        <parameter name="test-three-param" value="test three parameter" />
+        <classes>
+            <class name="Annotations.ParameterTest">
+                <methods>
+                    <include name="parameterTestThree" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Optional Test one">
+        <classes>
+            <class name="Annotations.ParameterTest">
+                <methods>
+                    <include name="optionTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Optional Test two">
+        <parameter name="optional-value" value="passed from xml" />
+        <classes>
+            <class name="Annotations.ParameterTest">
+                <methods>
+                    <include name="optionTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Optional test three" >
+<!--        <parameter name="test-four-param" value="parameter from xml"/>-->
+        <classes>
+            <class name="Annotations.ParameterTest">
+                <methods>
+                    <include name="twoParametersTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
