@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Default Group Suite" verbose="1">
+    <test name="Default Group Test one">
+        <groups>
+            <run>
+                <include name="default-group" />
+            </run>
+        </groups>
+        <classes>
+            <class name="testNgGroups.DefaultGroupTest" />
+        </classes>
+    </test>
+    <test name="Default Group Test two">
+        <groups>
+            <run>
+                <include name="test-group" />
+            </run>
+        </groups>
+        <classes>
+            <class name="testNgGroups.DefaultGroupTest" />
+        </classes>
+    </test>
+</suite>
