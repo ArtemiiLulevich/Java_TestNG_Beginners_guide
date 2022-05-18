@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Multi group xml dependency Suite" verbose="1">
+    <test name="Multi group xml dependency Test">
+        <groups>
+            <dependencies>
+<!--                <group name="dependent-group" depends-on="test-group-one test-group-two" />-->
+                <group name="dependent-group" depends-on="test-group.*" />
+            </dependencies>
+<!--            <run>-->
+<!--                <include name="dependent-group" />-->
+<!--            </run>-->
+        </groups>
+        <classes>
+            <class name="Dependency.xml.MultipleGroupDependencyTest" />
+        </classes>
+    </test>
+</suite>

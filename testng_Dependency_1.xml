@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Simple xml dependency Suite" verbose="1">
+    <test name="Simple xml dependency Test">
+        <groups>
+            <dependencies>
+                <group name="dependent-group" depends-on="test-group" />
+            </dependencies>
+<!--            <run>-->
+<!--                <include name="dependent-group" />-->
+<!--                <exclude name="test-group"/>-->
+<!--            </run>-->
+        </groups>
+        <classes>
+            <class name="Dependency.xml.SimpleXMLDependencyTest" />
+        </classes>
+    </test>
+</suite>
