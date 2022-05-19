@@ -11,7 +11,7 @@
         </groups>
         <classes>
             <class name="testNgGroups.GroupTest" />
-<!--            <class name="Annotations.BeforeAfterAnnotationsTests" />-->
+            <class name="Annotations.BeforeAfterAnnotationsTests" />
         </classes>
     </test>
 </suite>
