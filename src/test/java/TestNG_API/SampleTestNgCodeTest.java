@@ -6,11 +6,11 @@ public class SampleTestNgCodeTest {
 
     @Test
     public void testMethodOne(){
-        System.out.println("Test method One");
+        System.out.println("Test method One Not my own");
     }
     @Test
     public void testMethodTwo(){
-        System.out.println("Test method two");
+        System.out.println("Test method two Not my own");
     }
 
 }
